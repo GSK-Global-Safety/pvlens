@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6f5c36d3-3f99-803c-5be6-66b2e1058946"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Primidone Tablets USP<br/>
+   </title>
+   <effectiveTime value="20101202"/>
+   <setId root="a4f917f4-2aa2-c3ed-071e-232fa0f125e8"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="650562841" root="1.3.6.1.4.1.519.1"/>
+            <name>Dr. Reddy's Laboratories Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="918608162" root="1.3.6.1.4.1.519.1"/>
+                        <name>Dr. Reddy's Laboratories Limited - FTO III</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55111-477" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55111-477" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55111-476" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="55111-476" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="679d0438-1a1e-805a-319e-8ef38f6ffe50"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20101202"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55111-477" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Primidone</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Primidone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="50"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="13AFD7670Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>primidone</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="13AFD7670Q" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>primidone</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>lactose monohydrate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>magnesium stearate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium lauryl sulfate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium starch glycolate type A potato</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>talc</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="55111-477-30"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081003"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="60"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="55111-477-60"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081003"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="55111-477-01"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081003"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="55111-477-05"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081003"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="55111-477-79"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="55111-477-78"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20081003"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="WHITE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE">
+                              <originalText>white to off white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE">
+                              <originalText>round, flat, beveled edged</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">RDY;477</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20081003"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040862" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="6" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55111-476" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Primidone</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Primidone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="250"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="13AFD7670Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>primidone</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="13AFD7670Q" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>primidone</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>lactose monohydrate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>magnesium stearate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium lauryl sulfate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium starch glycolate type A potato</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>talc</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EX438O2MRT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ferric oxide yellow</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="55111-476-30"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081003"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="60"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="55111-476-60"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081003"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="55111-476-01"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081003"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="55111-476-05"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081003"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="55111-476-79"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="55111-476-78"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20081003"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" displayName="YELLOW" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE">
+                              <originalText>cream to yellow</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE">
+                              <originalText>round, flat, beveled edged</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">RDY;476</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20081003"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040862" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="11" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <section>
+                     <id root="eb41c278-348c-27da-baf6-7dbb83db724e"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <effectiveTime value="20100108"/>
+                     <component>
+                        <observationMedia ID="MM233870237362">
+                           <text>50mgContainer</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="50mgContainer.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM496567036837">
+                           <text>50mgCarton</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="50mgCarton.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM349868010812">
+                           <text>250mgContainer</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="250mgContainer.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM317629900104">
+                           <text>250mgCarton</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="250mgCarton.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_05D32F6C-C69D-28BA-8C83-01F545B08AEA">
+               <id root="af1ceeeb-dd39-4ca7-429a-712e81280f6f"/>
+               <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Anticonvulsant</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100108"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_EA43A769-4960-9681-0358-3E94303E23B0">
+               <id root="ebb8c8a9-c2ac-c71a-4c29-7b6a5b6683ef"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Chemical name: </content>5-ethyldihydro- 5-phenyl-4,6 (1H, 5H) pyrimidinedione.</paragraph>
+                  <paragraph>Structural formula:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+          </paragraph>
+                  <paragraph> C<sub>12</sub>H<sub>14</sub>N<sub>2</sub>O<sub>2</sub>
+                     <content styleCode="italics"/>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/>
+                     <sub/> M.W. 218.25</paragraph>
+                  <paragraph/>
+                  <paragraph>Primidone is a white crystalline powder, M.P. 279-284°C. It is very slightly soluble in methanol and methylene dichloride, slightly soluble in alcohol and insoluble in water. It possesses no acidic properties, in contrast to its barbiturate analog. </paragraph>
+                  <paragraph>Primidone tablets 50 mg and 250 mg contain the following inactive ingredients: lactose monohydrate, magnesium stearate, methyl cellulose, purified water, sodium lauryl sulphate, sodium starch glycolate and talc.</paragraph>
+                  <paragraph>Primidone tablets 250 mg also contain yellow iron oxide.</paragraph>
+               </text>
+               <effectiveTime value="20100108"/>
+            </section>
+         </component>
+         <component>
+            <section ID="A29FD196-3C7C-46B1-BE35-9685E92F6B80">
+               <id root="469b83b8-ad2e-3214-b649-3ecdca3eaef1"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Primidone raises electro- or chemoshock seizure thresholds or alters seizure patterns in experimental animals. The mechanism(s) of primidone’s antiepileptic action is not known.</paragraph>
+                  <paragraph>Primidone per se has anticonvulsant activity as do its two metabolites, phenobarbital and phenylethylmalonamide (PEMA). In addition to its anticonvulsant activity, PEMA potentiates the anticonvulsant activity of phenobarbital in experimental animals.</paragraph>
+               </text>
+               <effectiveTime value="20100108"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_D5288590-A168-5D1B-959B-92309FB1E510">
+               <id root="a69c7903-09f7-1f25-9f82-9c850d7ca059"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Primidone tablets, used alone or concomitantly with other anticonvulsants, are indicated in the control of grand mal, psychomotor, and focal epileptic seizures. It may control grand mal seizures refractory to other anticonvulsant therapy. </paragraph>
+               </text>
+               <effectiveTime value="20100108"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_E777A3A3-1247-12D4-FFA8-FD0FC7939715">
+               <id root="c1bbac6a-d337-1dd0-98dd-4b0c7bfe6a9d"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Primidone tablet is contraindicated in: </paragraph>
+                  <paragraph> 1) patients with porphyria and</paragraph>
+                  <paragraph> 2) patients who are hypersensitive to phenobarbital (see <content styleCode="bold">
+                        <linkHtml href="#A29FD196-3C7C-46B1-BE35-9685E92F6B80">CLINICAL</linkHtml>
+                        <linkHtml href="#A29FD196-3C7C-46B1-BE35-9685E92F6B80">PHARMACOLOGY</linkHtml>
+                     </content>). </paragraph>
+               </text>
+               <effectiveTime value="20100108"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_F30E6B18-3F85-2FE5-C526-3A56A1918E34">
+               <id root="16682a79-2c31-c62a-8d66-45bb29a0566c"/>
+               <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>The abrupt withdrawal of antiepileptic medication may precipitate status epilepticus. The therapeutic efficacy of a dosage regimen takes several weeks before it can be assessed.</paragraph>
+               </text>
+               <effectiveTime value="20100108"/>
+               <component>
+                  <section ID="_DF4E288B-BCB7-A6E3-2494-D5643CCEAEF5">
+                     <id root="dba7dce8-f088-c1b5-6667-eafb926e2020"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Suicidal Behavior and Ideation </content>
+                     </title>
+                     <text>
+                        <paragraph>Antiepileptic drugs (AEDs), including primidone, increase the risk of suicidal thoughts or behavior in patients taking these drugs for any indication. Patients treated with any AED for any indication should be monitored for the emergence or worsening of depression, suicidal thoughts or behavior, and/or any unusual changes in mood or behavior. </paragraph>
+                        <paragraph>Pooled analyses of 199 placebo-controlled clinical trials (mono- and adjunctive therapy) of 11 different AEDs showed that patients randomized to one of the AEDs had approximately twice the risk (adjusted Relative Risk 1.8, 95% CI:1.2, 2.7) of suicidal thinking or behavior compared to patients randomized to placebo. In these trials, which had a median treatment duration of 12 weeks, the estimated incidence rate of suicidal behavior or ideation among 27,863 AED-treated patients was 0.43%, compared to 0.24% among 16,029 placebo-treated patients, representing an increase of approximately one case of suicidal thinking or behavior for every 530 patients treated. There were four suicides in drug-treated patients in the trials and none in placebo-treated patients, but the number is too small to allow any conclusion about drug effect on suicide.</paragraph>
+                        <paragraph>The increased risk of suicidal thoughts or behavior with AEDs was observed as early as one week after starting drug treatment with AEDs and persisted for the duration of treatment assessed. Because most trials included in the analysis did not extend beyond 24 weeks, the risk of suicidal thoughts or behavior beyond 24 weeks could not be assessed. </paragraph>
+                        <paragraph>The risk of suicidal thoughts or behavior was generally consistent among drugs in the data analyzed. The finding of increased risk with AEDs of varying mechanisms of action and across a range of indications suggests that the risk applies to all AEDs used for any indication. The risk did not vary substantially by age (5 to 100 years) in the clinical trials analyzed. </paragraph>
+                        <paragraph>Table 1 shows absolute and relative risk by indication for all evaluated AEDs. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 1 </content>Risk by indication for antiepileptic drugs in the pooled analysis</paragraph>
+                        <paragraph/>
+                        <table border="1" cellpadding="1" cellspacing="1" width="624">
+                           <tbody align="center">
+                              <tr>
+                                 <td colspan="1" rowspan="1" valign="top">Indication</td>
+                                 <td valign="top">Placebo Patientswith Events Per1000 Patients</td>
+                                 <td valign="top">Drug Patientswith Events Per1000 Patients</td>
+                                 <td valign="top">Relative Risk: Incidence of Events in Drug Patients/Incidence in Placebo Patients</td>
+                                 <td valign="top">Risk Difference: Additional  Drug Patients with Events Per 1000 Patients</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">Epilepsy</td>
+                                 <td valign="top">1.0</td>
+                                 <td valign="top">3.4</td>
+                                 <td valign="top">3.5</td>
+                                 <td valign="top">2.4</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">Psychiatric</td>
+                                 <td valign="top">5.7</td>
+                                 <td valign="top">8.5</td>
+                                 <td valign="top">1.5</td>
+                                 <td valign="top">2.9</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">Other</td>
+                                 <td valign="top">1.0</td>
+                                 <td valign="top">1.8</td>
+                                 <td valign="top">1.9</td>
+                                 <td valign="top">0.9</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">Total</td>
+                                 <td valign="top">2.4</td>
+                                 <td valign="top">4.3</td>
+                                 <td valign="top">1.8</td>
+                                 <td valign="top">1.9</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The relative risk for suicidal thoughts or behavior was higher in clinical trials for epilepsy than in clinical trials for psychiatric or other conditions, but the absolute risk differences were similar for the epilepsy and psychiatric indications. </paragraph>
+                        <paragraph>Anyone considering prescribing primidone or any other AED must balance the risk of suicidal thoughts or behavior with the risk of untreated illness. Epilepsy and many other illnesses for which AEDs are prescribed are themselves associated with morbidity and mortality and an increased risk of suicidal thoughts and behavior. Should suicidal thoughts and behavior emerge during treatment, the prescriber needs to consider whether the emergence of these symptoms in any given patient may be related to the illness being treated. </paragraph>
+                        <paragraph>Patients, their caregivers, and families should be informed that AEDs increase the risk of suicidal thoughts and behavior and should be advised of the need to be alert for the emergence or worsening of the signs and symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. Behaviors of concern should be reported immediately to healthcare providers.</paragraph>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20100108"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_79E92A93-54A1-E218-A83F-2B4A4D888F5C">
+                     <id root="e9253cd2-9a64-f511-dcd5-a5b61d66c7c8"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Usage in Pregnancy</title>
+                     <text>
+                        <paragraph>To provide information regarding the effects of in utero exposure to primidone, physicians are advised to recommend that pregnant patients taking primidone enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry. This can be done by calling the toll free number 1-888-233-2334, and must be done by patients themselves. Information on the registry can also be found at the website <linkHtml href="http://www.aedpregnancyregistry.org/">http://www.aedpregnancyregistry.org/</linkHtml>.</paragraph>
+                        <paragraph>The effects of primidone in human pregnancy and nursing infants are unknown.</paragraph>
+                        <paragraph>Recent reports suggest an association between the use of anticonvulsant drugs by women with epilepsy and an elevated incidence of birth defects in children born to these women. Data are more extensive with respect to diphenylhydantoin and phenobarbital, but these are also the most commonly prescribed anticonvulsants; less systematic or anecdotal reports suggest a possible similar association with the use of all known anticonvulsant drugs. </paragraph>
+                        <paragraph>The reports suggesting an elevated incidence of birth defects in children of drugtreated epileptic women cannot be regarded as adequate to prove a definite cause and effect relationship.</paragraph>
+                        <paragraph>There are intrinsic methodologic problems in obtaining adequate data on drug teratogenicity in humans; the possibility also exists that other factors leading to birth defects, e.g., genetic factors or the epileptic condition itself, may be more important than drug therapy. The great majority of mothers on anticonvulsant medication deliver normal infants. It is important to note that anticonvulsant drugs should not be discontinued in patients in whom the drug is administered to prevent major seizures because of the strong possibility of precipitating status epilepticus with attendant hypoxia and threat to life. In individual cases where the severity and frequency of the seizure disorders are such that the removal of medication does not pose a serious threat to the patient, discontinuation of the drug may be considered prior to and during pregnancy, although it cannot be said with any confidence that even minor seizures do not pose some hazard to the developing embryo or fetus. </paragraph>
+                        <paragraph>The prescribing physician will wish to weigh these considerations in treating or counseling epileptic women of childbearing potential. Neonatal hemorrhage, with a coagulation defect resembling vitamin K deficiency, has been described in newborns whose mothers were taking primidone and other anticonvulsants. Pregnant women under anticonvulsant therapy should receive prophylactic vitamin K<sub>1</sub> therapy for one month prior to, and during, delivery. </paragraph>
+                     </text>
+                     <effectiveTime value="20100108"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_04C890B9-86E7-3B99-1951-619D9554BBE8">
+               <id root="92b78bc4-2f27-c835-0f7e-f9c989c63f68"/>
+               <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>The total daily dosage should not exceed 2 g. Since primidone therapy generally extends over prolonged periods, a complete blood count and a sequential multiple analysis-12 (SMA-12) test should be made every six months. </paragraph>
+               </text>
+               <effectiveTime value="20100108"/>
+               <component>
+                  <section ID="_BF113CEE-D55C-1955-687A-DADC0FD7F1D6">
+                     <id root="ec6f8c71-ef48-cd73-b1e9-3877b03ef920"/>
+                     <code code="34080-2" displayName="NURSING MOTHERS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>In Nursing Mothers</title>
+                     <text>
+                        <paragraph>There is evidence  in mothers treated with primidone, the drug appears in the milk in substantial quantities. Since tests for the presence of primidone in biological fluids are too complex to be carried out in the average clinical laboratory, it is suggested that the presence of undue somnolence and drowsiness in nursing newborns of primidone-treated mothers be taken as an indication that nursing should be discontinued. </paragraph>
+                     </text>
+                     <effectiveTime value="20100108"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_CEC89ACA-81B2-6052-0E4E-23264CA7509D">
+                     <id root="e3b6cc74-7fa1-e9d1-aa40-9ba364a95feb"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Information for Patients </content>
+                     </title>
+                     <text>
+                        <paragraph>Suicidal Thinking and Behavior<content styleCode="bold"/>- Patients, their caregivers, and families should be counseled that AEDs, including primidone, may increase the risk of suicidal thoughts and behavior and should be advised of the need to be alert for the emergence or worsening of symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. Behaviors of concern should be reported immediately to healthcare providers. </paragraph>
+                        <paragraph>Patients should be encouraged to enroll in the NAAED Pregnancy Registry if they become pregnant. This registry is collecting information about the safety of antiepileptic drugs during pregnancy. To enroll, patients can call the toll free number 1-888-233-2334 (see <content styleCode="bold">
+                              <linkHtml href="#_79E92A93-54A1-E218-A83F-2B4A4D888F5C">Usage in Pregnancy section</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Please refer to the Primidone Tablets USP Medication Guide provided with the product for more information.</paragraph>
+                     </text>
+                     <effectiveTime value="20100108"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_B929528B-8444-B44E-1F3E-3C0EE3B0576F">
+               <id root="18f57742-d253-40a5-61e7-2c33e080e674"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The most frequently occurring early side effects are ataxia and vertigo. These tend to disappear with continued therapy, or with reduction of initial dosage. Occasionally, the following have been reported: nausea, anorexia, vomiting, fatigue, hyperirritability, emotional disturbances, sexual impotency, diplopia, nystagmus, drowsiness and morbilliform skin eruptions. Granulocytopenia, agranulocytosis, and redcell hypoplasia and aplasia, have been reported rarely. These and, occasionally, other persistent or severe side effects may necessitate withdrawal of the drug. Megaloblastic anemia may occur as a rare idiosyncrasy to primidone and to other anticonvulsants. The anemia responds to folic acid without necessity of discontinuing medication. </paragraph>
+               </text>
+               <effectiveTime value="20100108"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_F70E46F4-37C2-0566-DDE9-6430CE66E20C">
+               <id root="c7b6972d-7ee6-3af1-2bbd-3e8a385a05e2"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20100108"/>
+               <component>
+                  <section ID="_A6A67E02-29F7-E009-AD37-4BEE66CA5FFF">
+                     <id root="b252be65-3707-073e-94d4-921d8ed47ff7"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Adult Dosage</title>
+                     <text>
+                        <paragraph>Patients 8 years of age and older who have received no previous treatment may be started on primidone tablets according to the following regimen using either 50 mg or scored 250 mg primidone tablets: </paragraph>
+                        <paragraph>Days 1 to 3: 100 to 125 mg at bedtime</paragraph>
+                        <paragraph>Days 4 to 6: 100 to 125 mg b.i.d.</paragraph>
+                        <paragraph>Days 7 to 9: 100 to 125 mg t.i.d.</paragraph>
+                        <paragraph>Day 10 to maintenance: 250 mg t.i.d.</paragraph>
+                        <paragraph>For most adults and children 8 years of age and over, the usual maintenance dosage is three to four 250 mg primidone tablets  in divided doses (250 mg t.i.d. or q.i.d.). If required, an increase to five or six 250 mg tablets daily may be made but daily doses should not exceed 500 mg q.i.d.</paragraph>
+                        <paragraph/>
+                        <table frame="vsides">
+                           <tbody align="center">
+                              <tr>
+                                 <th colspan="7" rowspan="1">INITIAL:ADULTS AND CHILDREN OVER 8</th>
+                              </tr>
+                              <tr>
+                                 <td colspan="7">
+                                    <content styleCode="bold">KEY:• = 50 mg tablet; ● = 250 mg tablet</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left">DAY</td>
+                                 <td>1</td>
+                                 <td>2</td>
+                                 <td>3</td>
+                                 <td>4</td>
+                                 <td rowspan="1">5</td>
+                                 <td rowspan="1">6</td>
+                              </tr>
+                              <tr>
+                                 <td align="left">AM</td>
+                                 <td/>
+                                 <td/>
+                                 <td/>
+                                 <td>••</td>
+                                 <td rowspan="1">••</td>
+                                 <td rowspan="1">••</td>
+                              </tr>
+                              <tr>
+                                 <td align="left">NOON</td>
+                                 <td/>
+                                 <td/>
+                                 <td/>
+                                 <td/>
+                                 <td rowspan="1"/>
+                                 <td rowspan="1"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="1">PM</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">••</td>
+                                 <td rowspan="1">••</td>
+                                 <td rowspan="1">••</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="1">DAY</td>
+                                 <td colspan="1">7</td>
+                                 <td colspan="1">8</td>
+                                 <td colspan="1">9</td>
+                                 <td colspan="1">10</td>
+                                 <td rowspan="1">11</td>
+                                 <td rowspan="1">12</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="1">AM</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">●</td>
+                                 <td colspan="2" rowspan="1">Adjust to Maintenance</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="1">NOON</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">●</td>
+                                 <td rowspan="1"/>
+                                 <td rowspan="1"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" colspan="1">PM</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">••</td>
+                                 <td colspan="1">●</td>
+                                 <td colspan="2" rowspan="1"/>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Dosage should be individualized to provide maximum benefit. In some cases, serum blood level determinations of primidone tablets may be necessary for optimal dosage adjustment. The clinically effective serum level for primidone tablets is between 5 to 12 μg/mL. </paragraph>
+                     </text>
+                     <effectiveTime value="20100108"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_36DE3295-EDB9-C761-FFAE-65956F6651BD">
+                     <id root="3214548e-4ee9-554d-e2df-30f6b98881a0"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>In Patients Already Receiving Other Anticonvulsants</title>
+                     <text>
+                        <paragraph>Primidone tablets should be started at 100 to 125 mg at bedtime and gradually increased to maintenance level as the other drug is gradually decreased. This regimen should be continued until satisfactory dosage level is achieved for the combination, or the other medication is completely withdrawn. When therapy with primidone tablets alone is the objective, the transition from concomitant therapy should not be completed in less than two weeks. </paragraph>
+                     </text>
+                     <effectiveTime value="20100108"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_ECC81B6E-41A6-3231-51B7-A32122FC170F">
+                     <id root="ba3eeddf-8d39-9ddd-6815-840fbc8cfc53"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Pediatric Dosage</title>
+                     <text>
+                        <paragraph>For children under 8 years of age, the following regimen may be used:</paragraph>
+                        <paragraph>Days 1 to 3: 50 mg at bedtime</paragraph>
+                        <paragraph>Days 4 to 6: 50 mg b.i.d.</paragraph>
+                        <paragraph>Days 7 to 9: 100 mg b.i.d.</paragraph>
+                        <paragraph>Day 10 to maintenance: 125 mg t.i.d. to 250 mg t.i.d. </paragraph>
+                        <paragraph>For children under 8 years of age, the usual maintenance dosage is 125 to 250 mg three times daily or, 10 to 25 mg/kg/day in divided doses. </paragraph>
+                     </text>
+                     <effectiveTime value="20100108"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_50091A13-6734-3EF7-94AA-B1E371D23341">
+               <id root="a8755f6f-043b-bc72-7b15-425e60ebe37a"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Primidone tablets USP, 50 mg are white to off white, round, flat, beveled edged uncoated tablets debossed “RDY” and “477” on the periphery on one side and break line on other side. They are supplied in bottles of 30’s, 60’s, 100’s, 500’s and unit dose package of 100 (10 x 10).</paragraph>
+                  <paragraph>Bottles of 30                                                                                    NDC 55111-477-30</paragraph>
+                  <paragraph>Bottles of 60                                                                                    NDC 55111-477-60</paragraph>
+                  <paragraph>Bottles of 100                                                                                  NDC 55111-477-01</paragraph>
+                  <paragraph>Bottles of 500                                                                                  NDC 55111-477-05</paragraph>
+                  <paragraph>Unit Dosage Package of 100 (10 x 10)                                          NDC 55111-477-78</paragraph>
+                  <paragraph>Primidone tablets USP, 250 mg are cream to yellow, round, flat, beveled edged uncoated tablets debossed “RDY” and “476” on the periphery on one side and break line on other side. They are supplied in bottles of 30’s, 60’s, 100’s, 500’s and unit dose package of 100 (10 x 10).</paragraph>
+                  <paragraph>Bottles of 30                                                                                    NDC 55111-476-30</paragraph>
+                  <paragraph>Bottles of 60                                                                                    NDC 55111-476-60</paragraph>
+                  <paragraph>Bottles of 100                                                                                  NDC 55111-476-01</paragraph>
+                  <paragraph>Bottles of 500                                                                                  NDC 55111-476-05</paragraph>
+                  <paragraph>Unit Dosage Package of 100 (10 x 10)                                          NDC 55111-476-78</paragraph>
+                  <paragraph>Store at 20°–25° C (68°–77° F) [See USP Controlled Room Temperature]. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Dispense in a well-closed container with a child-resistant closure. </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20100108"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_33c9cbf1-32f7-1d15-be5e-60833b973f69">
+               <id root="3ba4885b-1bf6-2912-ad66-b387397cc0b5"/>
+               <code code="42231-1" displayName="SPL MEDGUIDE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>
+                  <content styleCode="bold">MEDICATION GUIDE</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRIMIDONE TABLETS USP</content> </paragraph>
+                  <paragraph>Read this Medication Guide before you start taking primidone and each time you get a refill. There may be new information. This information does not take the place of talking to your healthcare provider about your medical condition or treatment.  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about primidone? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">Do not stop taking primidone without first talking to your healthcare provider. </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Stopping primidone suddenly can cause serious problems.  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Primidone can cause serious side effects, including</content>:  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1</content>. <content styleCode="bold"/>
+                     <content styleCode="bold">Like other antiepileptic drugs, primidone may cause suicidal thoughts or actions in a very small number of people, about 1 in 500. </content> <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Call a healthcare provider right away if you have any of these symptoms, especially if they are new, worse, or worry you: </content>
+                  </paragraph>
+                  <list>
+                     <item>thoughts about suicide or dying </item>
+                     <item>attempts to commit suicide </item>
+                     <item>new or worse depression </item>
+                     <item>new or worse anxiety </item>
+                     <item>feeling agitated or restless </item>
+                     <item>panic attacks </item>
+                     <item>trouble sleeping (insomnia) </item>
+                     <item>new or worse irritability </item>
+                     <item>acting aggressive, being angry, or violent </item>
+                     <item>acting on dangerous impulses </item>
+                     <item>an extreme increase in activity and talking (mania) </item>
+                     <item>other unusual changes in behavior or mood  </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">How can I watch for early symptoms of suicidal thoughts and actions? </content>
+                  </paragraph>
+                  <list>
+                     <item>
+                        <content styleCode="bold"/>Pay attention to any changes, especially sudden changes, in mood, behaviors, thoughts, or feelings.  </item>
+                     <item>Keep all follow-up visits with your healthcare provider as scheduled.  </item>
+                  </list>
+                  <paragraph>Call your healthcare provider between visits as needed, especially if you are worried about symptoms.  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not stop primidone without first talking to a healthcare provider. </content>
+                  </paragraph>
+                  <list>
+                     <item>
+                        <content styleCode="bold"/>Stopping primidone suddenly can cause serious problems. Stopping a seizure medicine suddenly in a patient who has epilepsy can cause seizures that will not stop (status epilepticus).  </item>
+                  </list>
+                  <paragraph>Suicidal thoughts or actions can be caused by things other than medicines. If you have suicidal thoughts or actions, your healthcare provider may check for other causes.  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is primidone? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Primidone is a prescription medicine used alone or with other medicines to treat people with: </paragraph>
+                  <list>
+                     <item>generalized tonic-clonic (grand mal) seizures </item>
+                     <item>complex partial (psychomotor) seizures </item>
+                     <item>partial (focal) epileptic seizures.  </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take primidone? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Do not take primidone if you: have a genetic disorder called porphyria are allergic to phenobarbital  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What should I tell my healthcare provider before taking primidone? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Before you take primidone, tell your healthcare provider if you: </paragraph>
+                  <list>
+                     <item>have or have had depression, mood problems or suicidal thoughts or behavior </item>
+                     <item>have any other medical conditions </item>
+                     <item>are pregnant or planning to become pregnant. Primidone may harm your unborn baby. Tell your healthcare provider right away if you become pregnant while taking primidone. You and your healthcare provider will decide if you should take primidone while you are pregnant.  <list>
+                           <item>If you become pregnant while taking primidone, talk to your healthcare provider about registering with the North American Antiepileptic Drug (NAAED) Pregnancy Registry. You can enroll in this registry by calling 1-888-233-2334. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. </item>
+                        </list> </item>
+                     <item>are breastfeeding or plan to breastfeed. Primidone can pass into breast milk. Talk to your healthcare provider about the best way to feed your baby if you take primidone.  </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your healthcare provider about all the medicines you take, </content>including prescription and non-prescription medicines, vitamins, and herbal supplements. Taking primidone with certain other medicines can cause side effects or affect how well they work. Do not start or stop other medicines without talking to your healthcare provider.  </paragraph>
+                  <paragraph>Know the medicines you take. Keep a list of them and show it to your healthcare provider and pharmacist each time you get a new medicine. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I take primidone? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Take primidone exactly as prescribed. </paragraph>
+                  <list>
+                     <item>Your healthcare provider will tell you how much primidone to take and when to take it. Your healthcare provider may change your dose. Do not change your dose without talking to your healthcare provider. </item>
+                     <item>Do not stop taking primidone without first talking to your healthcare provider. Stopping primidone suddenly can cause serious problems. </item>
+                     <item>If you take too much primidone, call your healthcare provider or local Poison Control Center right away. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I avoid while taking primidone?</content>
+                  </paragraph>
+                  <list>
+                     <item>
+                        <content styleCode="bold"/>Primidone can make you sleepy or dizzy. Do not drink alcohol or take other drugs that make you sleepy or dizzy while taking primidone without first discussing this with your healthcare provider. Taking primidone with alcohol or drugs that cause sleepiness or dizziness may make your sleepiness or dizziness worse.  </item>
+                     <item>Do not drive, operate heavy machinery, or do other dangerous activities until you know how primidone affects you. Primidone can slow your thinking and motor skills. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of primidone? </content> <content styleCode="bold">See "</content>
+                     <content styleCode="bold">What is the most important information I should know about primidone?”</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Primidone may cause other serious side effects including:</paragraph>
+                  <list>
+                     <item>Sleepiness that can be severe, especially when you first start taking primidone.</item>
+                     <item>Primidone may rarely cause blood problems. Symptoms may include: <list>
+                           <item>fever, swollen glands, or sore throat that come and go or do not go away </item>
+                           <item>Frequent infections or an infection that does not go away </item>
+                           <item>tiredness</item>
+                           <item>shortness of breath</item>
+                        </list>
+                     </item>
+                  </list>
+                  <list>
+                     <item>Primidone may rarely cause allergic reactions. Symptoms may include:<list>
+                           <item>skin rash </item>
+                           <item>hives </item>
+                           <item>sores in your mouth </item>
+                           <item>blistering or peeling skin    </item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>The most common side effects of primidone include:</paragraph>
+                  <paragraph/>
+                  <list>
+                     <item>problems with walking and moving</item>
+                     <item>feelings of dizziness, spinning, or swaying (vertigo)</item>
+                  </list>
+                  <paragraph>These are not all the possible side effects of primidone. For more information, ask your healthcare provider or pharmacist. </paragraph>
+                  <paragraph>Tell your healthcare provider if you have any side effect that bothers you or that does not go away. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. </content> </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I store primidone? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Store Primidone tablets at 20° - 25° C (68° - 77° F) [See USP Controlled Room Temperature]. in a tight, light-resistant container.  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep primidone and all medicines out of the reach of children.</content>
+                     <content styleCode="bold"> </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">General Information about primidone</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use primidone for a condition for which it was not prescribed. Do not give primidone to other people, even if they have the same symptoms that you have. It may harm them.  </paragraph>
+                  <paragraph>This Medication Guide summarizes the most important information about primidone. If you would like more information, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about primidone that is written for health professionals.  </paragraph>
+                  <paragraph>For more information, call 1-888-375-3784  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients in primidone? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">Active Ingredient:</content> Primidone </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients: </content>Lactose monohydrate, magnesium stearate, methyl cellulose, purified water, sodium lauryl sulphate, sodium starch glycolate and talc. Primidone tablets 250 mg also contain yellow iron oxide.</paragraph>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>To reorder additional Medication Guides, contact Dr. Reddy’s Customer Service at 1-866-733-3952. </paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dr. Reddy’s Laboratories Limited</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Bachepalli – 502 325 INDIA    </paragraph>
+                  <paragraph>Revised: 1210</paragraph>
+               </text>
+               <effectiveTime value="20100803"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_39032111-c6e9-cf1c-62da-5f48213bdf24">
+               <id root="2ac35219-eb59-8767-de01-234f521f614b"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL SECTION</title>
+               <text>
+                  <paragraph>Primidone Tablets USP, 50 mg - Container</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM233870237362"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20100109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_9453a047-8ba3-433d-9c1d-76ae6651904b">
+               <id root="e8ea329c-976d-148f-11dc-3adc06c4fcfa"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>Primidone Tablets USP, 50 mg - Carton</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM496567036837"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20100109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_17024b11-7689-5137-057e-fe54215a6f91">
+               <id root="8eb18888-ec11-5563-0335-422ba8f5b04f"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>Primidone Tablets USP, 250 mg - Container</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM349868010812"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20100109"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_e1d69374-5a1b-3a93-dde8-2e5d065509e4">
+               <id root="c002ac40-77f8-ab2a-8ea2-3b32391b0846"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>Primidone Tablets USP, 250 mg - Carton</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM317629900104"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20100109"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,21 @@
+PVLens
+Copyright (c) 2025 GlaxoSmithKline and contributors.
+All rights reserved.
+
+This product includes software developed by
+The Apache Software Foundation (http://www.apache.org/).
+
+Portions of this product are derived from works provided by the
+U.S. National Library of Medicine (NLM), including public-domain
+FDA Structured Product Label data and the LHNCBC fda-ars StopList.
+Used under BSD-style terms with U.S. Government usage rights.
+"Courtesy of the U.S. National Library of Medicine."
+
+Additional components are licensed under the Apache License 2.0,
+MIT License, EPL/MPL, and other compatible open-source licenses.
+
+See THIRD_PARTY_NOTICES.md for full details.
+
+PVLens is distributed under the terms of the GNU General Public License v3 (GPL v3).
+
+You may obtain a copy of the License at: https://www.gnu.org/licenses/gpl-3.0.txt

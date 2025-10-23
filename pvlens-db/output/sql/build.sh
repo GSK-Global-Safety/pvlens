@@ -1,0 +1,15 @@
+mysql -u ipsys -pip2002 pvlens < meddra.sql
+mysql -u ipsys -pip2002 pvlens < snomed.sql
+mysql -u ipsys -pip2002 pvlens < atc.sql
+mysql -u ipsys -pip2002 pvlens < rxnorm.sql
+mysql -u ipsys -pip2002 pvlens < substance.sql
+mysql -u ipsys -pip2002 pvlens < product_related.sql
+mysql -u ipsys -pip2002 pvlens < listed_aes.sql
+mysql -u ipsys -pip2002 pvlens < listed_indications.sql
+mysql -u ipsys -pip2002 pvlens < substance_to_ndc.sql
+mysql -u ipsys -pip2002 pvlens < substance_to_rxnorm.sql
+mysql -u ipsys -pip2002 pvlens < substance_to_snomed.sql
+mysql -u ipsys -pip2002 pvlens < substance_to_atc.sql
+mysql -u ipsys -pip2002 pvlens < product_ae_text.sql
+mysql -u ipsys -pip2002 pvlens < product_box_text.sql
+mysql -u ipsys -pip2002 pvlens < product_ind_text.sql

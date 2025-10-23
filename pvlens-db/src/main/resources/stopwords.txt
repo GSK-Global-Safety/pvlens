@@ -1,0 +1,342 @@
+###############################################################################
+# Custom word list developed by GSK
+###############################################################################
+oral contraceptive
+oral contraception
+mg++
+mg
+ml
+double blind
+blind placebo
+# ----------------------------------------------------------------------
+# NOTE: The following terms correspond to MedDRA PT 10067484 "Adverse reaction"
+# and related section-heading boilerplate.  They are intentionally retained
+# in this stoplist because they are too generic to represent a meaningful
+# adverse event concept and would otherwise match every AE section.
+# ----------------------------------------------------------------------
+adverse events
+adverse event
+adverse reactions
+adverse reaction
+pregnant
+pregnancy
+postmenopause
+postmarketing
+fda
+gov
+medwatch
+capsul
+capsule
+capsules
+clinical
+trial
+conducted
+ventilation
+transfusion
+transaminases
+tanning
+surgery
+acetaminophen 
+alb 
+alkaline phosphatase 
+alt 
+analgesia 
+ana
+anesthesia 
+application 
+aspiration 
+bilirubin
+biopsy 
+bun 
+caregiver 
+catheterization
+chronic overdose 
+contraception
+cpk 
+criminal 
+creatine phosphokinase
+dialysis 
+estradiol 
+estrogen 
+glucose 
+glomerular filtration rate 
+hba1c 
+implantation
+incision 
+infusion 
+injection 
+insertion 
+intubation 
+irrigation 
+laboratory test 
+lead
+liver function tests 
+low sodium diet 
+oral contraceptive 
+overdose 
+pharmacokinetic study 
+pregnancy 
+prevention 
+procedure 
+radiation 
+renin
+resection
+serum bilirubin 
+serum calcium
+serum creatinine 
+serum phosphate 
+serum potassium 
+sgot
+sodium
+surgery 
+tanning 
+transaminases 
+transfusion 
+ventilation 
+###############################################################################
+# Stop words below from sourced from:
+# 
+#  https://raw.githubusercontent.com/LHNCBC/fda-ars/master/MetaMapFiles/DATA/StopList
+#
+#  Some words have been commented out as they were found to be helpful
+#  for MedDRA tagging. More work on this would be appreciated.
+#
+###############################################################################
+abnormalities
+abnormality
+absence
+activity
+acute conditions
+#adverse drug reactions to
+#adverse drug reactions
+#adverse drug reaction
+#adverse effects
+#adverse events
+#adverse event
+#adverse reactions
+#adverse reaction
+#aggressive
+alone
+anesthesia
+arms
+as
+#at risk for infections
+benign malignant
+blood pressure
+call
+#chronic illness
+#chronic infections
+clumsiness
+cold
+contraindication
+creatinine
+damage
+#decreased activity
+#dependence
+diagnosed
+diagnosis
+diagnostic
+discomfort
+disease course
+disease progression
+drug adverse reactions
+drug reaction
+drug use
+exfoliating
+exposures
+exposure
+family history
+fasted
+fasting
+#fracture
+grade 0
+grade 4
+grade 5
+grades 4
+#infectious
+#inflammation
+inhibit
+injury
+invasion
+irritation
+life threatening
+life-threatening
+localized disease
+localized infections
+men 2
+menstruation
+nec
+#nervous system disorders
+#nervous
+not responsive
+obstruction
+others
+overdose
+patch
+pathology
+patients symptoms
+platelets
+positive test result
+post surgery
+pre-existing disease
+preexisting disease
+premature
+procedural complications
+progression
+#psychiatric disorder
+#psychiatric disorders
+#psychiatric illness
+#recurrence
+risk infections
+risk infection
+secondary
+sensitive
+#sensitivity
+#serious illness
+#serious injury
+#severe hypersensitivity
+#severe pain
+#stress
+#swelling
+#symptoms neurological
+#syndromes
+systemic conditions
+systemic illness
+systemic infections
+systemic infection
+#toxicities
+#trauma
+treatment failures
+vascular
+#virus
+whims
+###############################################################################
+## Standard English stop words
+###############################################################################
+i
+me
+my
+myself
+we
+our
+ours
+ourselves
+you
+your
+yours
+yourself
+yourselves
+he
+him
+his
+himself
+she
+her
+hers
+herself
+it
+its
+itself
+they
+them
+their
+theirs
+themselves
+what
+which
+who
+whom
+this
+that
+these
+those
+am
+is
+are
+was
+were
+be
+been
+being
+have
+has
+had
+having
+do
+does
+did
+doing
+a
+an
+the
+and
+but
+if
+or
+because
+as
+until
+while
+of
+at
+by
+for
+with
+about
+against
+between
+into
+through
+during
+before
+after
+above
+below
+to
+from
+up
+down
+in
+out
+on
+off
+over
+under
+again
+further
+then
+once
+here
+there
+when
+where
+why
+how
+all
+any
+both
+each
+few
+more
+most
+other
+some
+such
+no
+nor
+not
+only
+own
+same
+so
+than
+too
+very
+s
+t
+can
+will
+just
+don
+should
+now
