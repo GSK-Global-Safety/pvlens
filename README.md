@@ -1,20 +1,30 @@
-# pvlens
-FDA SPL extraction pipeline
+# PVLens
 
-PVLens: Structured Product Label Extraction Framework
-=====================================================
+**PVLens** is an open-source pipeline for extracting structured drug safety information from FDA **Structured Product Labels (SPL)**.
 
+The framework processes SPL XML documents, identifies clinical concepts such as **indications, adverse events, and boxed warnings**, and maps them to standardized biomedical terminologies including **MedDRA, SNOMED CT, RxNorm, and ATC** using the **UMLS Metathesaurus**.
+
+PVLens generates normalized SQL outputs suitable for building local pharmacovigilance and drug-label analysis databases.
 
 ## Overview
-PVLens is an open-source framework for extracting Indications, Adverse Events, Boxed Warnings, and related sections from FDA Structured Product Label (SPL) data.
- 
-It links extracted terms to standardized terminologies in the UMLS (MedDRA, SNOMED CT, RxNorm, ATC, etc.) and generates SQL output suitable for loading into a local database.
+PVLens is an open-source framework for extracting Indications, Adverse Events, Boxed Warnings, and related sections from FDA Structured Product Label (SPL) data. It links extracted terms to standardized biomedical vocabularies available in the UMLS, including MedDRA, SNOMED CT, RxNorm, and ATC. 
 
 **Important:** 
 PVLens distributes *only source code and helper methods*. 
 It does **not** include any FDA, UMLS, or proprietary data. 
 Users are responsible for obtaining and using these data sources in compliance with their respective licenses.
 
+PVLens produces CSV files that can be imported directly into SQL tables linking drugs, SPL sections, and mapped MedDRA concepts, enabling downstream analysis of labeled adverse events and indications.
+
+## Key Capabilities
+
+- Extracts clinical sections from FDA SPL XML documents
+- Identifies indications, adverse reactions, boxed warnings, and related safety content
+- Maps extracted terms to standardized vocabularies via the UMLS
+- Produces normalized SQL output for downstream pharmacovigilance analysis
+- Supports large-scale processing of the full DailyMed SPL archive
+
+For full installation and configuration instructions, see the **Installation Notes** section below.
 
 ## License
 This software is released under the **GNU General Public License, Version 3 (GPL v3)**.
@@ -64,7 +74,7 @@ you are familiar with the SPL XML structure.
 ---------------------------------------------------------------------
 
 1) **UMLS**
-   You must have a local installation of the UMLS (minimum 2025AA or newer)
+   You must have a local installation of the UMLS (2025AA or newer)
    with the vocabularies listed above loaded into MySQL or another RDBMS.
 
    PVLens expects the UMLS tables (MRCONSO, MRREL, MRSTY, etc.) to exist
