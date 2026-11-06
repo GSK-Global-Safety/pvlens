@@ -1,0 +1,45 @@
+# PVLens API configuration. Every value can be overridden with an
+# environment variable, e.g. PVLENS_DB_URL, PVLENS_API_KEYS.
+spring:
+  application:
+    name: pvlens-api
+  datasource:
+    url: ${PVLENS_DB_URL:jdbc:mysql://localhost:3306/pvlens}
+    username: ${PVLENS_DB_USER:pvlens_ro}
+    password: ${PVLENS_DB_PASSWORD:}
+    hikari:
+      read-only: true
+      maximum-pool-size: ${PVLENS_DB_POOL_SIZE:10}
+  mvc:
+    problemdetails:
+      enabled: true
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      write-dates-as-timestamps: false
+
+server:
+  port: ${PORT:8080}
+  shutdown: graceful
+
+pvlens:
+  api:
+    # Comma-separated list of accepted X-API-Key values.
+    keys: ${PVLENS_API_KEYS:}
+    # Never enable outside local development: the data contains licensed
+    # MedDRA and UMLS content.
+    allow-anonymous: ${PVLENS_API_ALLOW_ANONYMOUS:false}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
