@@ -15,10 +15,33 @@ MedDRA subscription or UMLS license may count as redistribution. For that
 reason the API requires an API key, and refuses to start without one unless
 you turn on anonymous mode explicitly for local development.
 
+## Try it without a database
+
+You only need Java 17 or newer (check with `java -version`). Maven is not
+required: the `mvnw` / `mvnw.cmd` wrapper downloads it on first use.
+
+```
+git clone -b feature/rest-api https://github.com/chalamalasetti/pvlens
+cd pvlens/pvlens-api
+mvnw.cmd test               (Windows)      ./mvnw test               (macOS/Linux)
+mvnw.cmd spring-boot:test-run              ./mvnw spring-boot:test-run
+```
+
+`test` runs the automated tests. `spring-boot:test-run` starts the API on the
+small in-memory sample database used by the tests. Then open
+http://localhost:8080/swagger-ui.html, click **Authorize**, enter `test-key-1`,
+and use "Try it out" on any endpoint. Or:
+
+```
+curl -H "X-API-Key: test-key-1" "http://localhost:8080/v1/products?name=avodart"
+```
+
+The sample data is made up and tiny; it is only for trying the endpoints.
+
 ## Requirements
 
 - Java 17+
-- Maven 3.8+
+- Maven 3.8+, or the included `mvnw` wrapper
 - A loaded PVLens MySQL database (see the main README, section 6)
 
 ## Setup
