@@ -234,6 +234,13 @@ database by following these steps:
   missing MedDRA or MTHSPL tables can lead to incomplete mappings.
 
 
+## REST API
+
+The `pvlens-api` module is an optional read-only REST API over a loaded PVLens
+database. It lets other tools search products and query labeled adverse
+events, indications, label text and safety label changes over HTTP. See
+[pvlens-api/README.md](pvlens-api/README.md) for setup and endpoints.
+
 ## Contact and Support
 
 For questions, issues, or contributions, please use the project’s GitHub Issues page

@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:pvlens;MODE=MySQL;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+    hikari:
+      read-only: false
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema-h2.sql
+      data-locations: classpath:test-data.sql
+
+pvlens:
+  api:
+    keys: test-key-1,test-key-2
+    allow-anonymous: false

@@ -4,6 +4,11 @@ All notable changes to this project will be documented here.
 
 ---
 
+## [Unreleased]
+
+### Added
+- `pvlens-api`: read-only REST API (Spring Boot) over a loaded PVLens database, with API key auth, OpenAPI docs and optional index script.
+
 ## [1.0.0] – 2025-10-21
 **Initial Public Release**
 
